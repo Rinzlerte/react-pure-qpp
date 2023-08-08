@@ -1,9 +1,8 @@
 import ReactDOM from 'react-dom/client'
-import Duv from './components/Duv'
 import React from "react";
 import { BrowserRouter } from 'react-router-dom';
-import App from './components/App'
-import ThemeProvider from './theme/ThemeProvaider'
+import App from './app/App'
+import ThemeProvider from './app/providers/ThemeProvider/ui/ThemeProvaider'
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
