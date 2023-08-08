@@ -22,7 +22,7 @@ export function buildWebpackConfig(options: BuildOptions): webpack.Configuration
             rules: buildLoaders(options)
         },
         resolve: buildResolvers(),
-        devtool:  isDev ? 'eval' : undefined,
+        devtool:  isDev ? 'source-map' : undefined,
         devServer: isDev ? buildDevServer(options) : undefined,
         optimization: {
             runtimeChunk: 'single',
