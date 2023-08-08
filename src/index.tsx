@@ -1,8 +1,13 @@
-import {render} from 'react-dom'
+import ReactDOM from 'react-dom/client'
+import Duv from './components/Duv'
+import React from "react";
 
-render(
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(
+  <React.StrictMode>
     <div>
-       121
-    </div>,
-    document.getElementById('root')
-)
+      12221
+       <Duv/>
+    </div>
+  </React.StrictMode>
+);
