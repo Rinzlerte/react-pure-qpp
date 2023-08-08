@@ -1,5 +1,5 @@
 import Line from './Line'
-import './index.scss'
+
 
 const Duv = () => {
   return (
